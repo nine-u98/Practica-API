@@ -35,16 +35,6 @@ Luego ejecutamos las migraciones para crear la base de datos de nuesta aplicacio
 ```sh
 # De manera general
 (env) $ python manage.py migrate
-(env) $ python manage.py makemigrations
-(env) $ python manage.py createsuperuser
-(env) $ python manage.py makemigrations services
-(env) $ python manage.py makemigrations payments
-
-(env) $ python manage.py migrate
-(env) $ python manage.py migrate services
-(env) $ python manage.py migrate payments
-
-# Para nuestro proyecto
 ```
 
 Una vez concluido, procedemos a iniciar la app
@@ -55,3 +45,13 @@ Una vez concluido, procedemos a iniciar la app
 ## Hacer uso del proyecto
 
 Navegue hasta `http://127.0.0.1:8000/`
+
+## Credenciales de acceso login
+Email
+```sh
+prueba@gmail.com
+```
+Password
+```sh
+123456789
+```
