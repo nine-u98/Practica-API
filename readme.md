@@ -1,6 +1,11 @@
 # Django API Backend
+## Integrantes:
 
-## Setup
+- Daniel Falcon Lopéz
+- David Quintanill Chacón
+
+# Instalación
+
 
 Como obtener este proyecto en su directorio:
 
@@ -43,6 +48,12 @@ Una vez concluido, procedemos a iniciar la app
 ```
 
 ## Hacer uso del proyecto
+```python
+python manage.py createsuperuser
+```
+
+## Crear usuario nuevo
+
 
 Navegue hasta `http://127.0.0.1:8000/`
 
@@ -55,3 +66,4 @@ Password
 ```sh
 123456789
 ```
+
